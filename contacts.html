@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMIGRATION/contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="index.html" class="header__top-logo-link">
+                    <img class="header__top-logo-img" src="images/svg/logo.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="index.html" class="menu__list-link">Home</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="about.html" class="menu__list-link">AbouT us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="services.html" class="menu__list-link menu__list-link--services">Services</a>
+                            <ul class="submenu__list">
+                                <li class="submenu__list-item"><a href="investments.html" class="submenu__list-link">Investments opportunities</a>
+                                </li>
+                                <li class="submenu__list-item"><a href="business.html" class="submenu__list-link">Business relocation</a>
+                                </li>
+                                <li class="submenu__list-item"><a href="family.html" class="submenu__list-link">Family relocation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="invest.html" class="menu__list-link">Invest in cyprus</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="migration.html" class="menu__list-link">Migration</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="contacts.html" class="menu__list-link">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__top-link">Get in touch</a>
+                <img src="../images/svg/phone-btn.svg" alt="menu" class="phone-btn">
+                <div class="phone-menu">
+                    <ul class="phone-menu__list">
+                        <li class="phone-menu__item">
+                            <a href="#" class="phone-menu__link">Home</a> 
+                        </li>
+                        <li class="phone-menu__item">
+                            <a href="#" class="phone-menu__link">AbouT us</a>
+                        </li>
+                        <li class="phone-menu__item">
+                            <a href="#" class="phone-menu__link">Services</a>
+                        </li>
+                        <li class="phone-menu__item">
+                            <a href="#" class="phone-menu__link">Invest in cyprus</a>
+                        </li>
+                        <li class="phone-menu__item">
+                            <a href="#" class="phone-menu__link">Contuct us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="contacts">
+        <div class="container">
+            <h3 class="contacts__title title">Contact Us</h3>
+            <div class="contacts__box">
+                <div class="contacts__box-item">
+                    <img src="images/svg/contacts-phone.svg" alt="icon-phone" class="contacts__box-item-img">
+                    <a href="tel:3579056759" class="contacts__box-item-link">+357 9056759</a>
+                </div>
+                <div class="contacts__box-item">
+                    <img src="images/svg/contacts-message.svg" alt="icon-message" class="contacts__box-item-img">
+                    <a href="mailto:contact@pamrelocation.com"
+                        class="contacts__box-item-link">contact@pamrelocation.com</a>
+                </div>
+            </div>
+            <form class="contacts__form">
+                <div class="contacts__form-inner">
+                    <h5 class="contacts__form-title">send inquiry</h5>
+                    <div class="contacts__form-box-input">
+                        <input type="text" class="contacts__form-input" placeholder="Your Name" required>
+                        <input type="email" class="contacts__form-input" placeholder="Email" required>
+                        <input type="text" class="contacts__form-input" placeholder="Subject">
+                        <input type="tel" class="contacts__form-input" placeholder="Phone" required>
+                    </div>
+                    <textarea class="contacts__form-textarea" placeholder="Your message"></textarea>
+                    <div class="contacts__form-box">
+                        <label for="form-check">
+                            <input type="checkbox" class="contacts__form-box-checkbox real-checkbox" id="form-check"
+                                required></input>
+                            <span class="custom-checkbox"></span>
+                            <p class="contacts__form-box-checkbox-text">By clicking “Submit button” you accept
+                                our <a href="#" class="contacts__form-box-link">Terms & Conditions</a>and have
+                                read our <a href="#" class="contacts__form-box-link">Privacy Policy</a> and <a
+                                    href="#" class="contacts__form-box-link">Disclaimer</a></p>
+                        </label>
+                    </div>
+                    <button type="submit" class="contacts__form-btn accent-link">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="big-container">
+            <div class="footer__inner">
+                <div class="footer__box">
+                    <p class="footer__box-copy">© 2022 PAM Consulting. All rights reserved</p>|
+                    <a href="disclaimer.html" class="footer__box-link">Disclaimer</a>|
+                    <a href="privacy.html" class="footer__box-link">Privacy poilcy</a>
+                </div>
+                <a href="#" class="footer__link-int">Who designed this website?</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.min.js"></script>
+</body>
